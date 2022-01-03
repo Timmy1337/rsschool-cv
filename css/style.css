@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    width: 1520px;
+    height: 900px;
+    background-color: #000000;
+}
+span{
+    background-color: #7c7e1f;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3e44247e;
+    border-right: 2px solid #7c7e1f;
+    border-bottom: 2px solid #7c7e1f;
+    border-left: 2px solid #7c7e1f;
+    border-radius: 0px 0px 10px 10px;
+}
+div{
+    color: #ffff
+}
+li{
+    margin-left: -20px;
+}
+header img{
+    width: 200px;
+    height: 250px;
+    border: 2px solid #7c7e1f;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.menu-2 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    list-style-type: none;
+    background-color: #3e44247e;
+    text-align: center;
+    border: 2px solid #7c7e1f;
+    border-radius: 10px 10px 0px 0px;
+
+    }
+ .menu-2 li {
+    margin: 8px 10px 8px 0;
+    padding: 2px 14px 4px;
+    background-color: #ddaf184b;
+    border: 2px solid #7c7e1f;
+    border-radius: 10px 10px;
+    display: inline-block;
+    transition: all 0.7s ease 0s;
+    }
+ .menu-2 a {
+   color: #f2f2f2;
+   text-decoration: none;
+   }
+ .menu-2 li:hover {
+   background-color: #ccc;
+   border-radius: 0px 0px;
+   }
+ .menu-2 li:hover a {
+   color: #000000;
+   }
+
+
+.two-columns{
+    display: flex;
+}
+.left-column{
+    margin-left: -2.8%;
+    color:#000000;
+    background-color: #adaf20;
+    border-left: 2px solid #3e44247e;
+    border-bottom: 2px solid #3e44247e;
+}
+.right-column{
+    border-right: 2px solid #7c7e1f;
+    border-bottom: 2px solid #7c7e1f;
+    background-color: #3e44247e;
+    margin-right: -2.8%;
+    padding-left: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.header2{
+    color: #000000;
+    margin-left: 20px;
+    text-align: left;
+}
+.my-github{
+    left: 100%;
+}
+.year{
+    left: 100%;
+}
+.rsschool{
+    left: 100%;
+}
